@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Application Response{% endblock %}
+{% block heading %}Thank you!{% endblock %}
+
+
+{% block content %}
+
+    <p>{{ fname }} {{ lname }}, we have received your application for the role
+    {{ position }}. Your minimum salary requirement is 
+    {{ "${:,.2f}".format(salary) }}. We will get back to you if you're a fit 
+    at Ubermelon!</p>
+
+{% endblock %}
