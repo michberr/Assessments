@@ -1,0 +1,19 @@
+/* Your CSS goes here */
+
+input, select {
+    background-color: yellow;
+    font-size: 18px;
+}
+
+#lastname {
+    font-weight: bold;
+}
+
+#instructions {
+    border: 2px solid black;
+    padding: 8px
+}
+
+body, head {
+    font-family: sans-serif;
+}

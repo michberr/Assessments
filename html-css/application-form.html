@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Application Form</title>
+    <h1>Application Form</h1>
+  </head>
+  <body>
+    <p id="instructions">Here at Ubermelon, we're changing the world by
+      making melons accessible to everyone. Our beautifully styled
+      user-interfaces are revolutionizing the online produce shopping industry. 
+      If you are enthusiastic about our mission, consider joining us! We are
+      currently hiring on several teams. To apply, please enter your
+      personal information, your expected salary, and the position that interests
+      you.</p>
+    <br>
+    <form action="application-success" method="POST">
+      <label for="firstname">First Name:</label>
+      <input id="firstname" type="text" name="fnametext">
+      <br>
+      <br>
+      <label for="lastname">Last Name:</label>
+      <input id="lastname" type="text" name="lnametext">
+      <br>
+      <br>
+      <label for="expectedsalary">Expected Salary:</label>
+      <input id="expectedsalary" type="text" name="salarytext">
+      <br>
+      <br>
+      <label for="position">Position:</label>
+        <select id="position" name="select">
+          <option value="SoftwareEngineer">Software Engineer</option>
+          <option value="QaEngineer">QA Engineer</option>
+          <option value="ProductManager">Product Manager</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+      </form>
+  </body>
+</html>
